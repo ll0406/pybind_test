@@ -9,3 +9,14 @@ Test the c++ and python binding
 5. Run `cd first_bind` and `cmake .` and finally `make`
 6. Inside of `first_bind` folder, start python shell, and run `import first_bind`
 7. Run `first_bind.simple_thresh()`, you should see a list returned
+
+Expected output
+```
+Python 2.7.10 (default, Aug 17 2018, 17:41:52)
+[GCC 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.0.42)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import first_bind
+>>> first_bind.simple_thresh()
+[-1.0, -1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0]
+>>>
+```
