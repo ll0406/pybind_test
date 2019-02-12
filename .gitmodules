@@ -1,3 +1,6 @@
 [submodule "first_bind/first_bind"]
 	path = first_bind/first_bind
 	url = https://github.com/pybind/pybind11.git
+[submodule "first_bind/pybind11"]
+	path = first_bind/pybind11
+	url = https://github.com/pybind/pybind11.git
